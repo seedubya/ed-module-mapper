@@ -46,6 +46,7 @@ At the moment, the repository is intentionally lightweight and serves as the fou
 - `README.md` — project overview and goals
 - `CLAUDE.md` — contributor notes and project conventions
 - `AGENTS.md` — repo workflow and issue-tracking instructions
+- `docs/module-selection-rules.md` — product rules for selecting owned modules
 - `LICENSE` — project licensing information
 
 ## Current implementation
@@ -99,7 +100,8 @@ The final application is expected to include:
 The project will evolve in stages:
 
 - define the module data model and required attributes
-- implement inventory comparison logic
+- implement inventory comparison logic using the
+  [module selection rules](docs/module-selection-rules.md)
 - add build requirement definitions and prioritization rules
 - ship a user interface for exploring missing upgrades
 - validate the planner against realistic loadout scenarios
