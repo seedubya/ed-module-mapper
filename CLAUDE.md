@@ -33,11 +33,12 @@ tests/             validation and scenario-based checks
 
 ## Current implementation snapshot
 
-The repository now contains the first concrete system in place for handling the owned-module CSV:
+The repository now contains the first concrete systems in place for handling both inventory data and target-build input:
 
 - CSV rows are read from `data/example_data.csv`
 - blank and `[Unknown]` values are normalized to `None`
 - module values are captured as a structured record with a `class_name`, `grade`, `value`, and `location`
+- target-build text from `data/example_input.txt` is parsed into typed module records with an explicit `mount_type` field for `G`, `F`, and `T`
 - parsing is covered by tests under `tests/`
 
 ## Documentation expectations

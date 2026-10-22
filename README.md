@@ -50,11 +50,13 @@ At the moment, the repository is intentionally lightweight and serves as the fou
 
 ## Current implementation
 
-The repository now includes an initial Python-based inventory import layer for the module CSV format used by the project.
+The repository now includes the first concrete parsing layer for both owned inventory and the target ship build format.
 
-- `ed_module_mapper/models.py` defines the core `ModuleRecord` data model
-- `ed_module_mapper/inventory.py` loads rows from the CSV and normalizes blanks and `[Unknown]` values to `None`
-- `data/example_data.csv` is the canonical sample inventory dataset for development and validation
+- `ed_module_mapper/models.py` defines the core `ModuleRecord`, `TargetModule`, and `TargetBuild` data models
+- `ed_module_mapper/inventory.py` loads rows from the owned-module CSV and normalizes blanks and `[Unknown]` values to `None`
+- `ed_module_mapper/target_build.py` parses the target-build text format in `data/example_input.txt`
+- mount type is tracked explicitly (`G`, `F`, or `T`) for hardpoints instead of being hidden inside the class string
+- `data/example_data.csv` and `data/example_input.txt` are the canonical sample datasets for development and validation
 
 ### CSV import usage
 
@@ -62,7 +64,19 @@ The repository now includes an initial Python-based inventory import layer for t
 python -m ed_module_mapper data/example_data.csv
 ```
 
-This returns a count of parsed module records and is the foundation for later build comparison logic.
+This returns a count of parsed module records and establishes the baseline for later build comparison logic.
+
+### Target build parsing usage
+
+```bash
+python - <<'PY'
+from ed_module_mapper.target_build import load_target_build
+build = load_target_build('data/example_input.txt')
+print(build.ship_name, build.ship_grade, len(build.modules))
+PY
+```
+
+This parses a target build such as `[Federal Corvette] [+5]` and its associated hardpoints, utility mounts, and summary stats.
 
 ## Planned architecture
 

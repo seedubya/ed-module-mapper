@@ -1,0 +1,137 @@
+[Federal Corvette] [+5]
+
+H: 4E/G Burst Laser [+3]
+*: Efficient G5 100.0%, Inertial Impact
+*: Power Draw -48.0%; Damage per Second +86.0%; Damage +86.0%
+*: Distributor Draw -45.0%; Thermal Load -60.0%; Jitter +3.00
+*: Kinetic Damage +50.00; Thermal Damage -50.00
+H: 4E/G Burst Laser [+3]
+*: Efficient G5 100.0%, Inertial Impact
+*: Power Draw -48.0%; Damage per Second +86.0%; Damage +86.0%
+*: Distributor Draw -45.0%; Thermal Load -60.0%; Jitter +3.00
+*: Kinetic Damage +50.00; Thermal Damage -50.00
+L: 3C/G Beam Laser [+3]
+*: Efficient G5 100.0%, Thermal Vent
+*: Power Draw -48.0%; Damage per Second +24.0%
+*: Distributor Draw -45.0%; Thermal Load -60.0%
+M: 2D/G Beam Laser [+3]
+*: Efficient G5 100.0%, Thermal Vent
+*: Power Draw -48.0%; Damage per Second +24.0%
+*: Distributor Draw -45.0%; Thermal Load -60.0%
+M: 2D/G Beam Laser [+3]
+*: Efficient G5 100.0%, Thermal Vent
+*: Power Draw -48.0%; Damage per Second +24.0%
+*: Distributor Draw -45.0%; Thermal Load -60.0%
+S: 1G/G Pulse Laser [+3]
+*: Long Range G1 100.0%, Emissive Munitions
+*: Mass +10.0%; Power Draw +3.0%; Thermal Load +100.0%
+*: Maximum Range +20.0%; Damage Falloff Start +620.0%
+S: 1G/G Pulse Laser [+3]
+*: Efficient G5 100.0%, Scramble Spectrum
+*: Power Draw -48.0%; Damage per Second +11.6%
+*: Damage per Second +11.6%; Damage +24.0%
+*: Distributor Draw -45.0%; Thermal Load -60.0%
+*: Rate of Fire -10.0%
+
+U: 0A Shield Booster [+2]
+*: Heavy Duty G5 100.0%, Super Capacitors
+*: Mass +300.0%; Integrity +15.0%; Power Draw +25.0%
+*: Shield Boost +53.9%; Kinetic Resistance -2.0%
+*: Thermal Resistance -2.0%; Explosive Resistance -2.0%
+U: 0A Shield Booster [+2]
+*: Heavy Duty G5 100.0%, Super Capacitors
+*: Mass +300.0%; Integrity +15.0%; Power Draw +25.0%
+*: Shield Boost +53.9%; Kinetic Resistance -2.0%
+*: Thermal Resistance -2.0%; Explosive Resistance -2.0%
+U: 0A Shield Booster [+2]
+*: Heavy Duty G5 100.0%, Super Capacitors
+*: Mass +300.0%; Integrity +15.0%; Power Draw +25.0%
+*: Shield Boost +53.9%; Kinetic Resistance -2.0%
+*: Thermal Resistance -2.0%; Explosive Resistance -2.0%
+U: 0A Shield Booster [+2]
+*: Heavy Duty G5 100.0%, Super Capacitors
+*: Mass +300.0%; Integrity +15.0%; Power Draw +25.0%
+*: Shield Boost +53.9%; Kinetic Resistance -2.0%
+*: Thermal Resistance -2.0%; Explosive Resistance -2.0%
+U: 0A Shield Booster [+2]
+*: Thermal Resistant G5 100.0%, Thermo Block
+*: Shield Boost -1.2%; Kinetic Resistance -4.0%
+*: Thermal Resistance +28.5%; Explosive Resistance -4.0%
+U: 0A Shield Booster [+2]
+*: Resistance Augmented G5 100.0%, Super Capacitors
+*: Integrity -12.0%; Power Draw +25.0%; Shield Boost +6.0%
+*: Kinetic Resistance +15.3%; Thermal Resistance +15.3%
+*: Explosive Resistance +15.3%
+U: 0A Shield Booster [+2]
+*: Resistance Augmented G5 100.0%, Super Capacitors
+*: Integrity -12.0%; Power Draw +25.0%; Shield Boost +6.0%
+*: Kinetic Resistance +15.3%; Thermal Resistance +15.3%
+*: Explosive Resistance +15.3%
+U: 0A Kill Warrant Scanner [+4]
+*: Fast Scan G5 100.0%
+*: Integrity -50.0%; Scanner Range -25.0%; Scan Time -80.0%
+
+BH: 1A Reactive Surface Composite
+PP: 8A Power Plant
+**: Armoured G5 100.0%, Monstered
+**: Mass +32.0%; Integrity +120.0%; Power Capacity +17.6%
+**: Heat Efficiency -12.0%
+TH: 7E Thrusters [+1]
+**: Dirty Tuning G5 100.0%, Drag Drives
+**: Integrity -15.0%; Power Draw +12.0%; Optimal Mass -12.5%
+**: Optimal Multiplier +45.6%; Thermal Load +76.0%
+FD: 6A Frame Shift Drive [+1]
+**: Increased Range G5 100.0%, Mass Manager
+**: Mass +30.0%; Integrity -21.8%; Power Draw +15.0%
+**: Optimised Mass +61.2%
+LS: 5D Life Support [+1]
+**: Lightweight G3 100.0%
+**: Mass -65.0%; Integrity -30.0%
+PD: 8A Power Distributor [+1]
+**: Charge Enhanced G5 100.0%, Super Conduits
+**: Weapons Capacity -8.8%; Weapons Recharge +50.8%
+**: Engines Capacity -8.8%; Engines Recharge +50.8%
+**: Systems Capacity -8.8%; Systems Recharge +50.8%
+SS: 8D Sensors [+1]
+**: Long Range G5 100.0%
+**: Mass +100.0%; Scan Angle -30.0%; Typical Emission +75.0%
+FT: 5C Fuel Tank (Cap: 32)
+
+MC: 5D Guardian Shield Reinforcement Package [+1]
+MC: 5D Guardian Shield Reinforcement Package [+1]
+
+7: 7C Bi-Weave Shield Generator [+2]
+*: Thermal Resistant G5 100.0%, Fast Charge
+*: Integrity +40.0%; Regen Rate +15.0%; Broken Regen Rate +15.0%
+*: Kinetic Resistance -13.1%; Thermal Resistance +59.1%
+*: Explosive Resistance -0.7%
+6: 5D Guardian Shield Reinforcement Package [+1]
+5: 5A Fuel Scoop [+4]
+5: 5D Guardian Shield Reinforcement Package [+1]
+4: 4D Guardian Shield Reinforcement Package [+1]
+4: 4D Hull Reinforcement Package
+*: Heavy Duty G5 100.0%, Deep Plating
+*: Mass +40.0%; Hull Reinforcement +89.2%
+*: Kinetic Resistance +13.0%; Thermal Resistance +13.0%
+*: Explosive Resistance +13.0%
+3: 3D Module Reinforcement Package
+1: 1E Supercruise Assist [+4]
+
+---
+
+Mass   : 1,775.60 T empty
+       : 1,807.60 T full
+Fuel   : 32 T
+Cargo  : 0 T
+Cabins : 0
+Speed  : 272 M/s (354 boost)
+Range  : 19.57 LY unladen
+       : 19.57 LY laden
+Power  : 31.28 MW retracted (74%)
+       : 39.65 MW deployed (94%)
+       : 42.34 MW available
+Shields: 3,707.6
+Armour : 1,919.4
+Damage : 165.8 Burst DPS
+Price  : 820,186,500 Cr
+Re-Buy : 41,009,325 Cr @ 95% insurance
