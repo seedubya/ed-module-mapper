@@ -22,13 +22,23 @@ This repository is currently a lightweight project foundation. The application a
 The project is expected to grow into a small monorepo with separated frontend, backend, and data concerns:
 
 ```text
-frontend/       user interface for inventory and build planning
-backend/        API and business logic for comparison rules
-data/           module catalog and build metadata
-docs/           architecture notes and product documentation
-scripts/        project automation and setup scripts
-tests/          validation and scenario-based checks
+ed_module_mapper/  initial Python package for CSV ingestion and module normalization
+frontend/          user interface for inventory and build planning
+backend/           API and business logic for comparison rules
+data/              module catalog and build metadata, including example inventory CSVs
+docs/              architecture notes and product documentation
+scripts/           project automation and setup scripts
+tests/             validation and scenario-based checks
 ```
+
+## Current implementation snapshot
+
+The repository now contains the first concrete system in place for handling the owned-module CSV:
+
+- CSV rows are read from `data/example_data.csv`
+- blank and `[Unknown]` values are normalized to `None`
+- module values are captured as a structured record with a `class_name`, `grade`, `value`, and `location`
+- parsing is covered by tests under `tests/`
 
 ## Documentation expectations
 

@@ -48,6 +48,22 @@ At the moment, the repository is intentionally lightweight and serves as the fou
 - `AGENTS.md` — repo workflow and issue-tracking instructions
 - `LICENSE` — project licensing information
 
+## Current implementation
+
+The repository now includes an initial Python-based inventory import layer for the module CSV format used by the project.
+
+- `ed_module_mapper/models.py` defines the core `ModuleRecord` data model
+- `ed_module_mapper/inventory.py` loads rows from the CSV and normalizes blanks and `[Unknown]` values to `None`
+- `data/example_data.csv` is the canonical sample inventory dataset for development and validation
+
+### CSV import usage
+
+```bash
+python -m ed_module_mapper data/example_data.csv
+```
+
+This returns a count of parsed module records and is the foundation for later build comparison logic.
+
 ## Planned architecture
 
 The final application is expected to include:
